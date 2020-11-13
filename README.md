@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A sample code of qiita post
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rails WebアプリでTimecopを使って時間移動をブラウザ上で行う - Qiita https://qiita.com/umeyuki@github/items/1ab5c4354e5a8f164b5b
