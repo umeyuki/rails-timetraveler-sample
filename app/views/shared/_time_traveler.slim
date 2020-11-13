@@ -1,0 +1,5 @@
+.gl-anchor style="right: 100px; bottom: 50px; position: fixed; z-index: 10000;"
+  = form_tag(time_travel_path) do
+    = text_field_tag :tc_date, Time.zone.now.strftime("%Y/%m/%d %H:%M:%S"), style: "width: 190px"
+    = select_tag :tc_action, options_for_select({"移動": "travel", "固定": "freeze", "解除": "reset"})
+    = submit_tag "時間を操作する"
